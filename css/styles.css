@@ -55,3 +55,9 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
+img {
+	display: block;
+	border-style: none;
+	max-width: 100%;
+}
