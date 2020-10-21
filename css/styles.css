@@ -70,8 +70,9 @@ img {
 	background-repeat: no-repeat;
 	background-position: -560px -285px;
 	position: relative;
-
+	width: 1000px;
 	padding: 70px 0px 80px 0px;
+	margin-top: 30px;
 	border-radius: 25px;
 	-webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
@@ -102,7 +103,7 @@ img {
 
 .faq-menu {
 	flex: 1 1 0;
-	margin-right: 85px;
+	margin-right: 105px;
 	max-width: 350px;
 }
 
@@ -117,6 +118,7 @@ img {
 	font-weight: normal;
 	font-size: 16px;
 	position: relative;
+	cursor: pointer;
 }
 
 .faq-menu dt::after {
@@ -134,7 +136,7 @@ img {
 
 .faq-menu-item {
 	border-bottom: 1px solid var(--light-grayish-blue);
-	padding: 15px 0px;
+	padding: 20px 0px;
 }
 
 .faq-menu dd {
