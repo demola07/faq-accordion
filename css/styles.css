@@ -1,3 +1,24 @@
-body {
-	background-color: aqua;
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* Variables */
+:root {
+	/* text h1, h2: active*/
+	--very-dark-desaturated-blue: hsl(238, 29%, 16%);
+	--soft-red: hsl(14, 88%, 65%);
+
+	/* text h2 default */
+	--very-dark-grayish-blue: hsl(237, 12%, 33%);
+
+	/* text p */
+	--dark-grayish-blue: hsl(240, 6%, 50%);
+
+	/* dividers */
+	--light-grayish-blue: hsl(240, 5%, 91%);
+
+	/* font-size */
+	--font: 12px;
+
+	/* font-family */
+	--font-family: 'Kumbh Sans', sans-serif;
 }
