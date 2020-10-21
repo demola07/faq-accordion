@@ -183,4 +183,40 @@ img {
 		overflow: visible;
 		background-position: center -850px;
 	}
+
+	.faq::after {
+		display: none;
+	}
+
+	.image {
+		overflow: visible;
+	}
+
+	.faq-image {
+		display: none;
+	}
+
+	.faq-image-mobile {
+		display: block;
+		margin-top: -105px;
+		margin-bottom: 50px;
+	}
+
+	.faq-menu {
+		margin: 0;
+		max-width: 100%;
+		padding: 0 25px;
+	}
+
+	.faq-menu h1 {
+		text-align: center;
+	}
+
+	.faq-menu dt {
+		font-size: 14px;
+	}
+
+	.attribution {
+		margin-top: 25;
+	}
 }
