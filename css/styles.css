@@ -22,3 +22,36 @@
 	/* font-family */
 	--font-family: 'Kumbh Sans', sans-serif;
 }
+
+/* Main */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: var(--font);
+}
+
+body {
+	background: rgb(100, 100, 230);
+	background: linear-gradient(
+		0deg,
+		rgba(100, 100, 230, 1) 0%,
+		rgba(175, 102, 233, 1) 100%
+	);
+	font-family: var(--font-family);
+	color: var(--very-dark-grayish-blue);
+	font-weight: 400;
+	line-height: 1.6;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
