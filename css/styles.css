@@ -170,3 +170,17 @@ img {
 .attribution {
 	margin-top: 75px;
 }
+
+@media only screen and (max-width: 1000px) {
+	body {
+		padding: 125px 25px 25px 25px;
+	}
+
+	.faq {
+		flex-direction: column;
+		padding-top: 0;
+		padding-bottom: 25px;
+		overflow: visible;
+		background-position: center -850px;
+	}
+}
