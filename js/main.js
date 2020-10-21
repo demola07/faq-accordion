@@ -1,7 +1,7 @@
 function initAccordion() {
 	const accordionList = document.querySelectorAll('.faq-menu dt');
 	const activeClass = 'active';
-	console.log(accordionList);
+
 	if (accordionList.length) {
 		accordionList[0].classList.add(activeClass);
 		accordionList[0].nextElementSibling.classList.add(activeClass);

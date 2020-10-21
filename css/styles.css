@@ -183,6 +183,7 @@ img {
 	}
 
 	.faq {
+		width: 800px;
 		flex-direction: column;
 		padding-top: 0;
 		padding-bottom: 25px;
@@ -210,6 +211,7 @@ img {
 
 	.faq-menu {
 		margin: 0;
+		width: 500px;
 		max-width: 100%;
 		padding: 0 25px;
 	}
